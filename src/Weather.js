@@ -53,7 +53,7 @@ export default function Weather() {
       </div>
       <footer className="linkToSourceCode">
         <a
-          href="https://github.com/DianaCBranco/SheCodesPlusWeatherApp"
+          href="https://github.com/DianaCBranco/weather-app-react"
           target="_blank"
         >
           Open-source code
