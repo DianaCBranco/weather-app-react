@@ -1,0 +1,77 @@
+.Weather {
+  margin: 30px auto;
+  color: #48484a;
+  box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
+  max-width: 500px;
+  max-height: 370px;
+  display: block;
+  border-radius: 15px;
+  padding: 15px;
+  font-family: "Andika", sans-serif;
+  background-image: linear-gradient(to bottom, #fff1eb 2%, #ace0f9 100%);
+}
+
+.Weather .title,
+.date,
+.form-group,
+.city,
+.description {
+  text-align: center;
+}
+
+.Weather .title {
+  font-size: 20px;
+  margin-top: 0 auto;
+  padding: 0px;
+}
+
+.Weather .date {
+  font-size: 18px;
+}
+
+.Weather .search {
+  position: relative;
+  top: -26px;
+  right: -60px;
+}
+
+.Weather .picture {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+}
+
+.Weather .ul {
+  list-style: none;
+}
+
+.Weather .city {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.Weather .description {
+  font-size: 19px;
+  position: relative;
+  top: -30px;
+}
+
+.Weather .temperature {
+  font-size: 20px;
+  position: relative;
+  top: -160px;
+  right: 130px;
+}
+
+.Weather .conditions {
+  text-align: right;
+  font-size: 15px;
+  position: relative;
+  top: -220px;
+  right: 25px;
+}
+.Weather .linkToSourceCode {
+  font-size: 15px;
+  position: relative;
+  top: -100px;
+}
