@@ -47,9 +47,11 @@ export default function Weather() {
         18 <a href="/">°C</a> | <a href="/">°F</a>
       </strong>
       <div className="conditions">
-        Wind: {weatherData.wind} Km/h <br />
-        Humidity: {weatherData.humidity} % <br />
-        Precipitation: {weatherData.precipitation}% <br />
+        <ul>
+          <li> Wind: {weatherData.wind} Km/h </li> <br />
+          <li> Humidity: {weatherData.humidity} % </li> <br />
+          <li> Precipitation: {weatherData.precipitation}% </li> <br />
+        </ul>
       </div>
       <footer className="linkToSourceCode">
         <a
