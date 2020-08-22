@@ -41,8 +41,11 @@
   width: 90px;
 }
 
-.Weather .ul {
-  list-style-type: none;
+ul,
+li {
+  list-style: none !important;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .Weather .city {
