@@ -30,10 +30,9 @@ export default function Weather() {
           />
         </div>
       </form>
-      <button className="btn btn-light">
+      <button className="btn btn-light locationButton">
         <FontAwesomeIcon icon={faMapMarkerAlt} />
       </button>
-      <button className="search">Search</button>
       <br />
       <h4 className="city">{weatherData.city}</h4>
       <br />

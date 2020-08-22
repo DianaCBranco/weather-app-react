@@ -29,6 +29,11 @@
   font-size: 18px;
 }
 
+.Weather .locationButton {
+  position: relative;
+  left: -200px;
+}
+
 .Weather .search {
   position: relative;
   top: -26px;
