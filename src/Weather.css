@@ -41,8 +41,8 @@
   width: 90px;
 }
 
-.ul {
-  list-style: none;
+.conditions .ul {
+  list-style-type: none;
 }
 
 .Weather .city {
