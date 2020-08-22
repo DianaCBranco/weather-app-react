@@ -48,11 +48,12 @@ export default function Weather() {
       </strong>
       <div className="conditions">
         <ul>
-          <li> Wind: {weatherData.wind} Km/h </li> <br />
-          <li> Humidity: {weatherData.humidity} % </li> <br />
-          <li> Precipitation: {weatherData.precipitation}% </li> <br />
+          <li> Wind: {weatherData.wind} Km/h </li>
+          <li> Humidity: {weatherData.humidity} % </li>
+          <li> Precipitation: {weatherData.precipitation}% </li>
         </ul>
       </div>
+      <div className="forecast"></div>
       <footer className="linkToSourceCode">
         <a
           href="https://github.com/DianaCBranco/weather-app-react"
