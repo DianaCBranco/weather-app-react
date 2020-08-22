@@ -64,6 +64,8 @@
 }
 
 .Weather .conditions {
+  list-style: none;
+  margin: 0 auto;
   text-align: right;
   font-size: 15px;
   position: relative;
