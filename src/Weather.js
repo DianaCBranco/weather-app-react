@@ -1,6 +1,8 @@
 import React from "react";
 import "./Weather.css";
 import ReactAnimatedWeather from "react-animated-weather";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function Weather() {
   let weatherData = {
@@ -28,6 +30,9 @@ export default function Weather() {
           />
         </div>
       </form>
+      <button className="btn btn-light">
+        <FontAwesomeIcon icon={faMapMarkerAlt} />
+      </button>
       <button className="search">Search</button>
       <br />
       <h4 className="city">{weatherData.city}</h4>
