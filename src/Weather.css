@@ -1,10 +1,9 @@
 .Weather {
-  margin: 30px auto;
   color: #48484a;
-  box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
   max-width: 525px;
   max-height: 370px;
-  display: block;
+  margin: 30px auto;
+  box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
   border-radius: 15px;
   padding: 15px;
   font-family: "Andika", sans-serif;
@@ -53,7 +52,7 @@
 
 .Weather .units {
   position: relative;
-  top: -43px;
+  top: -42px;
   left: 45px;
   font-size: 18px;
 }
