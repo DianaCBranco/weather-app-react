@@ -63,7 +63,8 @@ li {
   margin: 0px;
 }
 .Weather .description {
-  font-size: 19px;
+  font-size: 18px;
+  padding: 3px;
 }
 
 .Weather .temperature {
