@@ -36,28 +36,33 @@ export default function Weather() {
       <br />
       <h4 className="city">{weatherData.city}</h4>
       <br />
-      <div>
-        <ReactAnimatedWeather
-          icon="RAIN"
-          color="#4682B4"
-          size={80}
-          animate={true}
-          alt={weatherData.description}
-        />
+      <div className="row">
+        <div className="col-sm">
+          <h5 className="temperature">
+            18 <a href="/">°C</a> | <a href="/">°F</a>
+          </h5>
+        </div>
+        <div className="col-sm">
+          <ReactAnimatedWeather
+            icon="RAIN"
+            color="#4682B4"
+            size={80}
+            animate={true}
+            alt={weatherData.description}
+          />
+        </div>
+        <div class="col-sm">
+          <div className="conditions">
+            <ul>
+              <li> Wind: {weatherData.wind} Km/h </li>
+              <li> Humidity: {weatherData.humidity} % </li>
+              <li> Precipitation: {weatherData.precipitation}% </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <br />
       <h3 className="description">{weatherData.description}</h3>
-      <strong className="temperature">
-        18 <a href="/">°C</a> | <a href="/">°F</a>
-      </strong>
-      <div className="conditions">
-        <ul>
-          <li> Wind: {weatherData.wind} Km/h </li>
-          <li> Humidity: {weatherData.humidity} % </li>
-          <li> Precipitation: {weatherData.precipitation}% </li>
-        </ul>
-      </div>
-      <div className="forecast"></div>
+      <br />
       <footer className="linkToSourceCode">
         <a
           href="https://github.com/DianaCBranco/weather-app-react"

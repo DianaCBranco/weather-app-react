@@ -45,7 +45,7 @@
 .Weather .picture {
   display: block;
   margin: 0 auto;
-  width: 90px;
+  width: 80px;
 }
 
 ul,
@@ -62,28 +62,18 @@ li {
 }
 .Weather .description {
   font-size: 19px;
-  position: relative;
-  top: -30px;
 }
 
 .Weather .temperature {
-  font-size: 20px;
-  position: relative;
-  top: -160px;
-  right: 130px;
+  font-size: 19px;
 }
 
 .Weather .conditions {
   list-style: none;
   margin: 0 auto;
-  text-align: right;
   font-size: 15px;
-  position: relative;
-  top: -220px;
-  right: 25px;
 }
 .Weather .linkToSourceCode {
   font-size: 15px;
-  position: relative;
-  top: -100px;
+  padding: 20px;
 }
