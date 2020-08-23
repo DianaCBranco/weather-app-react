@@ -38,9 +38,9 @@ export default function Weather() {
       <br />
       <div className="row">
         <div className="col-sm">
-          <h5 className="temperature">
+          <h4 className="temperature justify-content-center">
             18 <a href="/">°C</a> | <a href="/">°F</a>
-          </h5>
+          </h4>
         </div>
         <div className="col-sm">
           <ReactAnimatedWeather
@@ -51,7 +51,7 @@ export default function Weather() {
             alt={weatherData.description}
           />
         </div>
-        <div class="col-sm">
+        <div className="col-sm">
           <div className="conditions">
             <ul>
               <li> Wind: {weatherData.wind} Km/h </li>

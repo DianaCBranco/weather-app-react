@@ -41,7 +41,9 @@
   top: -26px;
   right: -60px;
 }
-
+.Weather .generalConditions {
+  padding: 0px;
+}
 .Weather .picture {
   display: block;
   margin: 0 auto;
@@ -65,7 +67,7 @@ li {
 }
 
 .Weather .temperature {
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .Weather .conditions {
