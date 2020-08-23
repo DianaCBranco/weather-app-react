@@ -2,7 +2,7 @@
   margin: 30px auto;
   color: #48484a;
   box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
-  max-width: 500px;
+  max-width: 525px;
   max-height: 370px;
   display: block;
   border-radius: 15px;
@@ -41,6 +41,7 @@
   top: -26px;
   right: -60px;
 }
+
 .Weather .generalConditions {
   padding: 0px;
 }
@@ -48,6 +49,13 @@
   display: block;
   margin: 0 auto;
   width: 80px;
+}
+
+.Weather .units {
+  position: relative;
+  top: -43px;
+  left: 45px;
+  font-size: 18px;
 }
 
 ul,
@@ -68,7 +76,7 @@ li {
 }
 
 .Weather .temperature {
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .Weather .conditions {

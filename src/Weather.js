@@ -27,6 +27,7 @@ export default function Weather() {
             className="form-control"
             placeholder="Enter city..."
             autoComplete="off"
+            autoFocus="on"
           />
         </div>
       </form>
@@ -36,11 +37,18 @@ export default function Weather() {
       <br />
       <h4 className="city">{weatherData.city}</h4>
       <br />
-      <div className="row">
+      <div className="row generalConditions">
         <div className="col-sm">
-          <h4 className="temperature justify-content-center">
-            18 <a href="/">°C</a> | <a href="/">°F</a>
-          </h4>
+          <strong className="temperature">18</strong>
+          <div className="units">
+            <a href="/" className="temp-celsius">
+              °C
+            </a>{" "}
+            |
+            <a href="/" className="temp-fahrenheit">
+              °F
+            </a>
+          </div>
         </div>
         <div className="col-sm">
           <ReactAnimatedWeather
