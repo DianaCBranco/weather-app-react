@@ -19,9 +19,20 @@ export default function WeatherInfo(props) {
         <div className="col-sm">
           <div className="conditions">
             <ul>
-              <li> Feels like: {props.data.feels} °C </li>
-              <li> Wind: {props.data.wind} km/h </li>
-              <li> Humidity: {props.data.humidity}% </li>
+              <li>
+                Feels like:
+                <strong> {props.data.feels}</strong> °C{" "}
+              </li>
+              <li>
+                Wind:
+                <strong> {props.data.wind} </strong>
+                km/h{" "}
+              </li>
+              <li>
+                {" "}
+                Humidity:
+                <strong> {props.data.humidity} </strong>%{" "}
+              </li>
             </ul>
           </div>
         </div>
