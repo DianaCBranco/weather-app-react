@@ -1,4 +1,6 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
+import WeatherConversion from "./WeatherConversion";
 
 export default function WeatherInfo(props) {
   return (
@@ -6,22 +8,13 @@ export default function WeatherInfo(props) {
       <h4 className="city">{props.data.city}</h4>
       <br />
       <div className="row generalConditions">
-        <div className="col-sm">
-          <strong className="temperature">
-            {Math.round(props.data.temperature)}
-          </strong>
-          <div className="units">
-            <a href="/" className="temp-celsius">
-              °C
-            </a>{" "}
-            |
-            <a href="/" className="temp-fahrenheit">
-              °F
-            </a>
+        <div className="col-sm d-flex justify-content-end">
+          <div>
+            <WeatherConversion celsius={props.data.temperature} />
           </div>
         </div>
         <div className="col-sm">
-          <img src={props.data.icon} alt={props.data.description} />
+          <WeatherIcon code={props.data.icon} />
         </div>
         <div className="col-sm">
           <div className="conditions">

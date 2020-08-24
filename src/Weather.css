@@ -52,9 +52,9 @@
 
 .Weather .units {
   position: relative;
-  top: -42px;
-  left: 45px;
   font-size: 18px;
+  top: -18px;
+  left: 10px;
 }
 
 ul,
@@ -75,7 +75,7 @@ li {
 }
 
 .Weather .temperature {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .Weather .conditions {
