@@ -64,6 +64,7 @@ export default function Weather(props) {
         <br />
         <WeatherInfo data={weatherData} />
         <br />
+        <br />
         <footer className="linkToSourceCode">
           <a
             href="https://github.com/DianaCBranco/weather-app-react"
