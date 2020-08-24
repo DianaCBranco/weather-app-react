@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Weather.css";
+import CurrentDate from "./CurrentDate";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +13,7 @@ export default function Weather(props) {
     setWeatherData({
       loaded: true,
       city: "Lisbon",
-      date: "Monday, 24 of July 2020",
+      date: new Date(response.data.dt * 1000),
       feels: response.data.main.feels_like,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
@@ -26,7 +27,9 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <h1 className="title">Welcome to BetterOutside!</h1>
-        <h2 className="date">{weatherData.date}</h2>
+        <h2 className="date">
+          <CurrentDate date={weatherData.date} />
+        </h2>
         <form>
           <div className="form-group">
             <input
