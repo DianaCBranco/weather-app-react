@@ -21,7 +21,7 @@
 .Weather .title {
   font-size: 20px;
   margin-top: 0 auto;
-  padding: 0px;
+  padding: 1.6px;
 }
 
 .Weather .date {
@@ -71,11 +71,11 @@ li {
 }
 .Weather .description {
   font-size: 19px;
-  padding: 7px;
+  padding: 8px;
 }
 
 .Weather .temperature {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .Weather .conditions {
