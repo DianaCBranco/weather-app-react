@@ -1,7 +1,7 @@
 .Weather {
   color: #48484a;
   max-width: 525px;
-  max-height: 370px;
+  max-height: 520px;
   margin: 30px auto;
   box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
   border-radius: 15px;
@@ -47,7 +47,7 @@
 .Weather .picture {
   display: block;
   margin: 0 auto;
-  width: 80px;
+  width: 30px;
 }
 
 .Weather .units {
@@ -83,7 +83,8 @@ li {
   margin: 0 auto;
   font-size: 15px;
 }
+
 .Weather .linkToSourceCode {
   font-size: 15px;
-  padding: 20px;
+  padding: 35px;
 }

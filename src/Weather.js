@@ -5,6 +5,7 @@ import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -63,6 +64,8 @@ export default function Weather(props) {
         </button>
         <br />
         <WeatherInfo data={weatherData} />
+        <hr />
+        <WeatherForecast city={weatherData.city} />
         <footer className="linkToSourceCode">
           <a
             href="https://github.com/DianaCBranco/weather-app-react"
