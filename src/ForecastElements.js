@@ -16,12 +16,12 @@ export default function WeatherForecastElements(props) {
 
   return (
     <div className="WeatherForecastElements col justify-content-md-center">
-      {hours()}
+      <div className="Forecast_hours">{hours()}</div>
       <WeatherIcon
         className="forecast_icon"
         code={props.data.weather[0].icon}
       />
-      {temperature()}
+      <div className="Forecast-Temperature">{temperature()}</div>
     </div>
   );
 }

@@ -84,6 +84,13 @@ li {
   font-size: 15px;
 }
 
+.Forecast_hours {
+  padding: 7px;
+  font-size: 13px;
+}
+.Forecast-Temperature {
+  font-size: 15px;
+}
 .Weather .linkToSourceCode {
   font-size: 15px;
   margin: 30px;
