@@ -1,7 +1,7 @@
 .Weather {
   color: #48484a;
   max-width: 525px;
-  max-height: 520px;
+  max-height: 495px;
   margin: 30px auto;
   box-shadow: 1px 5px 10px 0px rgba(170, 175, 209, 1);
   border-radius: 15px;
@@ -86,5 +86,5 @@ li {
 
 .Weather .linkToSourceCode {
   font-size: 15px;
-  padding: 40px;
+  margin: 30px;
 }
