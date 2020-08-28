@@ -6,6 +6,7 @@ import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import WeatherForecast from "./WeatherForecast";
+import Loading from "./Loading";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -80,6 +81,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return <Loading />;
   }
 }
