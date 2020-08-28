@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import WeatherForecast from "./WeatherForecast";
 import Loading from "./Loading";
+import TypeMe, { LineBreak, Delete } from "react-typeme";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -44,7 +45,9 @@ export default function Weather(props) {
   if (weatherData.loaded) {
     return (
       <div className="Weather">
-        <h1 className="title">Welcome to BetterOutside!</h1>
+        <h1 className="title">
+          <TypeMe>Welcome to BetterOutside!</TypeMe>
+        </h1>
         <h2 className="date">
           <CurrentDate date={weatherData.date} />
         </h2>
