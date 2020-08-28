@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import WeatherForecast from "./WeatherForecast";
 import Loading from "./Loading";
-import TypeMe, { LineBreak, Delete } from "react-typeme";
+import TypeMe, { Delete } from "react-typeme";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -48,8 +48,8 @@ export default function Weather(props) {
         <h1 className="title">
           <TypeMe
             strings={[
-              "Welcome to BetterOutside",
-              <Delete characters={24} />,
+              "Welcome to BetterOutside!",
+              <Delete characters={25} />,
               "Have an incredible day!",
             ]}
           />
