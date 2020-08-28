@@ -46,7 +46,13 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <h1 className="title">
-          <TypeMe>Welcome to BetterOutside!</TypeMe>
+          <TypeMe
+            strings={[
+              "Welcome to BetterOutside",
+              <Delete characters={24} />,
+              "Have an incredible day!",
+            ]}
+          />
         </h1>
         <h2 className="date">
           <CurrentDate date={weatherData.date} />
